@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shop smartphones and accessories for every budget at PocketTech.">
+    <title>Shop Phones — PocketTech</title>
+    <link href="bootstrap-offline-docs-5.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="announcement-bar text-center">Free shipping on orders over ₱100 <span aria-hidden="true">·</span> Easy 30-day returns</div>
+    <header class="site-header sticky-top"><nav class="navbar navbar-expand"><div class="container">
+        <a class="navbar-brand" href="index.html" aria-label="PocketTech home"><img class="brand-logo" src="images/pockettech-logo.png" alt="">PocketTech<span class="brand-period">.</span></a>
+        <div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav mx-auto"><li class="nav-item"><a class="nav-link active" aria-current="page" href="product.html"><i class="bi bi-phone" aria-hidden="true"></i><span>Products</span></a></li><li class="nav-item"><a class="nav-link" href="contacts.html"><i class="bi bi-envelope" aria-hidden="true"></i><span>Contact</span></a></li><li class="nav-item"><a class="nav-link" href="about.html"><i class="bi bi-info-circle" aria-hidden="true"></i><span>About</span></a></li></ul><a class="cart-link" href="index.html#cart" aria-label="Go to shopping cart"><i class="bi bi-bag" aria-hidden="true"></i><span>Cart</span><span class="cart-count" data-cart-count aria-live="polite">0</span></a></div>
+    </div></nav></header>
+    <main>
+        <section class="page-hero"><div class="container"><span class="eyebrow">Explore the collection</span><h1>Find a phone <span>that fits.</span></h1><p>From everyday essentials to powerful flagships, browse our simple selection of phones and accessories.</p></div></section>
+        <section class="shop-section section-space" id="products"><div class="container">
+            <div class="catalog-tools"><label class="search-box"><span aria-hidden="true"><i class="bi bi-search"></i></span><span class="visually-hidden">Search products</span><input type="search" data-product-search placeholder="Search phones and features..." autocomplete="off"></label>
+                <div class="category-filters" role="group" aria-label="Filter products by category"><button class="filter-button active" type="button" data-category="all" aria-pressed="true">All</button><button class="filter-button" type="button" data-category="flagship" aria-pressed="false">Flagship</button><button class="filter-button" type="button" data-category="everyday" aria-pressed="false">Everyday</button><button class="filter-button" type="button" data-category="budget" aria-pressed="false">Budget</button><button class="filter-button" type="button" data-category="accessories" aria-pressed="false">Accessories</button></div>
+            </div>
+            <p class="catalog-status" data-catalog-status aria-live="polite"></p><div class="row g-4 product-grid" data-product-grid></div><div class="catalog-empty d-none" data-empty-state>No products match your search. Try another name or category.</div>
+        </div></section>
+        <section class="benefits-strip" aria-label="Shopping benefits"><div class="container"><div class="row g-3 text-center"><div class="col-6 col-lg-3"><i class="bi bi-shield-check" aria-hidden="true"></i> Quality checked</div><div class="col-6 col-lg-3"><i class="bi bi-credit-card" aria-hidden="true"></i> Secure checkout</div><div class="col-6 col-lg-3"><i class="bi bi-truck" aria-hidden="true"></i> Fast delivery</div><div class="col-6 col-lg-3"><i class="bi bi-arrow-repeat" aria-hidden="true"></i> Easy returns</div></div></div></section>
+    </main>
+    <footer class="site-footer"><div class="container footer-bottom"><p class="footer-copyright">© 2026 PocketTech. All rights reserved.</p><div class="footer-socials" aria-label="Social media"><a href="https://www.facebook.com/pockettech" target="_blank" rel="noopener noreferrer" aria-label="PocketTech on Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a><a href="https://www.instagram.com/pockettech/" target="_blank" rel="noopener noreferrer" aria-label="PocketTech on Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a><a href="https://www.tiktok.com/@pockettech" target="_blank" rel="noopener noreferrer" aria-label="PocketTech on TikTok"><i class="bi bi-tiktok" aria-hidden="true"></i></a><a href="https://www.youtube.com/@pockettech" target="_blank" rel="noopener noreferrer" aria-label="PocketTech on YouTube"><i class="bi bi-youtube" aria-hidden="true"></i></a></div></div></footer>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3"><div class="toast align-items-center border-0" data-cart-toast role="status" aria-live="polite" aria-atomic="true"><div class="d-flex"><div class="toast-body" data-cart-toast-message>Added to your cart.</div><button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button></div></div></div>
+    <script src="bootstrap-offline-docs-5.3/dist/js/bootstrap.bundle.min.js"></script><script src="js/store.js"></script>
+</body>
+</html>
